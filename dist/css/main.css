@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Sour Gummy";
+    src: url("/fonts/SourGummy-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+/* #255 */
+:root {
+    --color: rgb(166, 13, 185);
+    --body-background: #000;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+
+    color: var(--color);
+    font-family: "Sour Gummy";
+    background-color: var(--body-background);
+}
