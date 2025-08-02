@@ -20,7 +20,7 @@ macro_rules! rtml_internal {
         el
     }};
 
-    (@content $doc:ident, $el:ident, ) => {}; // End
+    (@content $doc:ident, $el:ident, ) => {};
 
     (@content $doc:ident, $el:ident, $key:ident : $val:literal $($rest:tt)*) => {{
         $el.set_attribute(stringify!($key), $val).unwrap();

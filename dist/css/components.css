@@ -1,0 +1,13 @@
+:root {
+    --bg: rgba(40, 40, 40, 0.5);
+    --border: rgba(140, 140, 140, 0.5);
+}
+
+.Box {
+    padding: 4px;
+    border-radius: 4px;
+    background-color: var(--bg);
+    border-color: var(--border);
+    border-width: 1px;
+    border-style: solid;
+}

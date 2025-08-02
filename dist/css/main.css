@@ -3,9 +3,9 @@
     src: url("/fonts/SourGummy-VariableFont_wdth,wght.ttf") format("truetype");
 }
 
-/* #255 */
+/* #255 | rgb(166, 13, 185) | */
 :root {
-    --color: rgb(166, 13, 185);
+    --color: rgb(238, 238, 238);
     --body-background: #000;
 }
 
