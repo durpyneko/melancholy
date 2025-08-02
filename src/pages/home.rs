@@ -31,6 +31,26 @@ pub fn render() -> web_sys::Element {
                     }
                 }
             }
+            div {
+                class: "flex justify-center"
+                div {
+                    class: "flex flex-col text-2xl"
+                    a {
+                        href: "https://v3.durpy.dev/"
+                        target: "_blank"
+                        span {
+                            "⤷ v3"
+                        }
+                    }
+                    a {
+                        href: "https://v2.durpy.dev/"
+                        target: "_blank"
+                        span {
+                        "⤷ v2"
+                        }
+                    }
+                }
+            }
         }
     };
 
