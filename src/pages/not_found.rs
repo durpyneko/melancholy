@@ -1,6 +1,9 @@
 use crate::rtml;
+use crate::utils::snippets;
 
 pub fn render() -> web_sys::Element {
+    snippets::set_title("page not found");
+
     let tree = rtml! {
         div {
             class: "flex items-center justify-center h-screen"
