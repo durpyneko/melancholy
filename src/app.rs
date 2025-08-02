@@ -16,7 +16,7 @@ impl AppRouter {
         let element = match route.as_str() {
             "/" => pages::home::render(),
             "/about" => pages::about::render(),
-            _ => pages::home::render(),
+            _ => pages::not_found::render(),
         };
 
         let body = web_sys::window()
