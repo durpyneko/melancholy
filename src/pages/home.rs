@@ -6,15 +6,22 @@ pub fn render() -> web_sys::Element {
 
     let tree = rtml! {
         div {
-            span {
-                class: "flex justify-center text-2xl p-4"
-                "𝐖𝐄𝐋𝐂𝐎𝐌𝐄 to\u{00A0}"
+            div {
+                class: "p-4"
                 span {
-                    class: "text-[#ba3e80]" // #a63654 | #ba3e80
-                    "melancholy\u{00A0}\u{00A0}"
+                    class: "flex justify-center text-2xl"
+                    "𝐖𝐄𝐋𝐂𝐎𝐌𝐄 to\u{00A0}"
+                    span {
+                        class: "text-[#ba3e80]" // #a63654 | #ba3e80
+                            "melancholy\u{00A0}\u{00A0}"
+                        }
+                    span {
+                        "₍₍⚞(˶˃ ꒳ ˂˶)⚟⁾⁾"
+                    }
                 }
                 span {
-                    "₍₍⚞(˶˃ ꒳ ˂˶)⚟⁾⁾"
+                    class: "flex justify-center"
+                    "malancholy is a low level personal website in rust and webassembly"
                 }
             }
             div {
