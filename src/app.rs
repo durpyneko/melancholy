@@ -2,6 +2,8 @@ use web_sys::window;
 
 use crate::pages;
 
+use crate::components::footer;
+
 pub struct AppRouter;
 
 impl AppRouter {
@@ -25,6 +27,9 @@ impl AppRouter {
             .unwrap();
         body.set_inner_html(""); // clear existing content
         body.append_child(&element).unwrap();
+
+        let footer = footer::render();
+        body.append_child(&footer).unwrap();
     }
 }
 
