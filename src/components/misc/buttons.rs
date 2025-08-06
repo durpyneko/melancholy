@@ -24,6 +24,10 @@ pub fn render() -> web_sys::Element {
                     class: "flex justify-center flex-row gap-1 items-center"
                     img {
                         class: "h-[56px] w-[99px] flex-none"
+                        src: "/images/buttons/d19.png"
+                    }
+                    img {
+                        class: "h-[56px] w-[99px] flex-none"
                         title: "kuru kuru"
                         src: "/images/buttons/miku_kurukuru.jpg"
                     }
@@ -38,6 +42,10 @@ pub fn render() -> web_sys::Element {
                     img {
                         class: "h-[56px] w-[99px] flex-none"
                         src: "/images/buttons/e110.gif"
+                    }
+                    img {
+                        class: "h-[56px] w-[99px] flex-none"
+                        src: "/images/buttons/d20.png"
                     }
                 }
                 div {
