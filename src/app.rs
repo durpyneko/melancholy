@@ -3,6 +3,7 @@ use web_sys::window;
 use crate::pages;
 
 use crate::components::footer;
+use ::rtml::rtml;
 
 pub struct AppRouter;
 
@@ -28,6 +29,12 @@ impl AppRouter {
         body.set_inner_html(""); // clear existing content
         body.append_child(&element).unwrap();
 
+        let spacer = rtml! {
+            div {
+                class: "mt-10"
+            }
+        };
+        body.append_child(&spacer).unwrap();
         let footer = footer::render();
         body.append_child(&footer).unwrap();
     }

@@ -11,3 +11,19 @@
     border-width: 1px;
     border-style: solid;
 }
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 280px solid transparent;
+    border-right: 280px solid transparent;
+    border-top: 200px solid rgba(85, 144, 78, 0.7);
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 280px solid transparent;
+    border-right: 280px solid transparent;
+    border-bottom: 200px solid rgba(85, 144, 78, 0.7);
+}
